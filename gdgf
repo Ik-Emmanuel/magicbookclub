@@ -1,0 +1,89 @@
+
+{
+    
+    
+    
+    
+    
+    'ISBN': {133: '0060929790', 292: '0684833395', 1097: '0140077022', 1098: '0679732764', 1111: '038001503X', 1377:
+'0060916508', 5373: '0156907380', 5913: '0446600253', 6750: '0446675369', 10750: '0060931418', 17919: '0156907399',
+21550: '0440204399', 23572: '0375507914', 30723: '0590013815', 33229: '1853260916', 42869: '0060531045', 55109:
+'0151907366', 62995: '0679723137', 70901: '0671461192', 84210: '0749318724', 103840: '0192834134', 112267: '0394717155',
+123515: '0892290021', 135370: '0060199490', 162756: '0072434236', 163477: '0252017781', 181366: '0785742271', 228666:
+'0072434228', 264023: '0330329537'}, 
+
+
+
+
+
+'bookTitle': {133: 'One Hundred Years of Solitude', 292: 'Catch 22', 1097: 'White
+Noise (Contemporary American Fiction)', 1098: 'Invisible Man', 1111: 'One Hundred Years of Solitude', 1377: 'Their Eyes
+Were Watching God: A Novel', 5373: 'To the Lighthouse', 5913: 'Bless Me, Ultima', 6750: 'Bless Me, Ultima', 10750:
+'Their Eyes Were Watching God', 17919: 'To the Lighthouse', 21550: 'Catch 22', 23572: 'Invisible Man', 30723: 'Invisible
+Man', 33229: 'To the Lighthouse', 42869: 'One Hundred Years of Solitude', 55109: 'To the Lighthouse', 62995: 'Invisible
+Man', 70901: 'Invisible Man', 84210: 'To the Lighthouse', 103840: 'To the Lighthouse', 112267: 'Invisible Man', 123515:
+'Bless Me, Ultima', 135370: 'Their Eyes Were Watching God', 162756: 'One Hundred Years of Solitude', 163477: 'Their Eyes
+Were Watching God', 181366: 'Bless Me, Ultima', 228666: 'Their Eyes Were Watching God', 264023: 'One Hundred Years of
+Solitude'}, 
+
+
+
+'bookAuthor': {133: 'Gabriel Garcia Marquez', 292: 'Joseph Heller', 1097: 'Don DeLillo', 1098: 'Ralph
+Ellison', 1111: 'Gabriel Garcia Marquez', 1377: 'Zora Neale Hurston', 5373: 'Virginia Woolf', 5913: 'Rudolfo Anaya',
+6750: 'Rudolfo Anaya', 10750: 'Zora Neale Hurston', 17919: 'Virginia Woolf', 21550: 'Joseph Heller', 23572: 'Ralph
+Ellison', 30723: 'Herbert George Wells', 33229: 'Virginia Woolf', 42869: 'Gabriel Garcia Marquez', 55109: 'Virginia
+Woolf', 62995: 'Ralph Ellison', 70901: 'H. G. Wells', 84210: 'Virginia Woolf', 103840: 'Virginia Woolf', 112267: 'Ralph
+Ellison', 123515: 'Rudolfo A. Anaya', 135370: 'Zora Neale Hurston', 162756: 'Gabriel Garcia Marquez', 163477: 'Zora
+Neale Hurston', 181366: 'Rudolfo Anaya', 228666: 'Zora Neale Hurston', 264023: 'Gabriel Garcia-Marquez'},
+
+
+
+
+'yearOfPublication': {133: 1998, 292: 1996, 1097: 1991, 1098: 1995, 1111: 1970, 1377: 1990, 5373: 1978, 5913: 1994,
+6750: 1999, 10750: 1998, 17919: 1989, 21550: 1992, 23572: 2002, 30723: 1972, 33229: 1999, 42869: 2003, 55109: 1981,
+62995: 1989, 70901: 1985, 84210: 1994, 103840: nan, 112267: 1972, 123515: 1976, 135370: 2000, 162756: 2000, 163477:
+1991, 181366: 1999, 228666: '2000', 264023: 1995}, 
+
+
+
+
+
+'publisher': {133: 'Perennial', 292: 'Simon &amp; Schuster', 1097:
+'Penguin Books', 1098: 'Vintage Books USA', 1111: 'Avon Books', 1377: 'Perennial', 5373: 'Harvest Books', 5913: 'Warner
+Books', 6750: 'Warner Books', 10750: 'Perennial', 17919: 'Harvest Books', 21550: 'Dell Publishing Company', 23572:
+'Random House', 30723: 'Scholastic Paperbacks', 33229: 'Lb May &amp; Assoc Inc', 42869: 'HarperCollins', 55109:
+'Harcourt', 62995: 'Random House~trade', 70901: 'Pocket Books', 84210: 'Mandarin', 103840: 'Oxford Univ Press', 112267:
+'Vintage Books USA', 123515: 'Tqs Pubns', 135370: 'HarperCollins', 162756: 'McGraw-Hill College', 163477: 'University of
+Illinois Press', 181366: 'Sagebrush Bound', 228666: 'Perennial', 264023: 'Pan Macmillan'}, 
+
+
+ 'imageUrlL': {133:
+'http://images.amazon.com/images/P/0060929790.01.LZZZZZZZ.jpg', 292:
+'http://images.amazon.com/images/P/0684833395.01.LZZZZZZZ.jpg', 1097:
+'http://images.amazon.com/images/P/0140077022.01.LZZZZZZZ.jpg', 1098:
+'http://images.amazon.com/images/P/0679732764.01.LZZZZZZZ.jpg', 1111:
+'http://images.amazon.com/images/P/038001503X.01.LZZZZZZZ.jpg', 1377:
+'http://images.amazon.com/images/P/0060916508.01.LZZZZZZZ.jpg', 5373:
+'http://images.amazon.com/images/P/0156907380.01.LZZZZZZZ.jpg', 5913:
+'http://images.amazon.com/images/P/0446600253.01.LZZZZZZZ.jpg', 6750:
+'http://images.amazon.com/images/P/0446675369.01.LZZZZZZZ.jpg', 10750:
+'http://images.amazon.com/images/P/0060931418.01.LZZZZZZZ.jpg', 17919:
+'http://images.amazon.com/images/P/0156907399.01.LZZZZZZZ.jpg', 21550:
+'http://images.amazon.com/images/P/0440204399.01.LZZZZZZZ.jpg', 23572:
+'http://images.amazon.com/images/P/0375507914.01.LZZZZZZZ.jpg', 30723:
+'http://images.amazon.com/images/P/0590013815.01.LZZZZZZZ.jpg', 33229:
+'http://images.amazon.com/images/P/1853260916.01.LZZZZZZZ.jpg', 42869:
+'http://images.amazon.com/images/P/0060531045.01.LZZZZZZZ.jpg', 55109:
+'http://images.amazon.com/images/P/0151907366.01.LZZZZZZZ.jpg', 62995:
+'http://images.amazon.com/images/P/0679723137.01.LZZZZZZZ.jpg', 70901:
+'http://images.amazon.com/images/P/0671461192.01.LZZZZZZZ.jpg', 84210:
+'http://images.amazon.com/images/P/0749318724.01.LZZZZZZZ.jpg', 103840:
+'http://images.amazon.com/images/P/0192834134.01.LZZZZZZZ.jpg', 112267:
+'http://images.amazon.com/images/P/0394717155.01.LZZZZZZZ.jpg', 123515:
+'http://images.amazon.com/images/P/0892290021.01.LZZZZZZZ.jpg', 135370:
+'http://images.amazon.com/images/P/0060199490.01.LZZZZZZZ.jpg', 162756:
+'http://images.amazon.com/images/P/0072434236.01.LZZZZZZZ.jpg', 163477:
+'http://images.amazon.com/images/P/0252017781.01.LZZZZZZZ.jpg', 181366:
+'http://images.amazon.com/images/P/0785742271.01.LZZZZZZZ.jpg', 228666:
+'http://images.amazon.com/images/P/0072434228.01.LZZZZZZZ.jpg', 264023:
+'http://images.amazon.com/images/P/0330329537.01.LZZZZZZZ.jpg'}}

@@ -1,0 +1,109 @@
+{%  extends "layout.html"  %}
+
+
+{% block content %}
+
+          
+<!-- end slider section -->
+<!-- we_do -->  <br> <br>
+<div class="we_do" id="whatwedo">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12">  
+           <div class="titlepage text_align_center">
+           
+              <h2>User Profile </h2>
+           </div>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-12">
+           <div id="we1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                 <li data-target="#we1" data-slide-to="0" class="active"></li>
+                 <li data-target="#we1" data-slide-to="1"></li>
+                 <li data-target="#we1" data-slide-to="2"></li>
+         
+              </ol>
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                    <div class="container-fluid">
+                       <div class="carousel-caption we1_do">
+                          <div class="row">
+                             <div class="col-md-6">
+                                <div id="bo_ho" class="we_box text_align_left">
+                               
+                                    <img src="/static/images/book2.jpg"  alt="#"/>
+                                </div>
+                             </div>
+                             <div class="col-md-6">
+                                <div id="bo_ho" class="we_box text_align_left">
+                                   <i></i>
+                                   <h3>Please Fill out the Form </h3> <br>
+                                   <span style="color: black;"> The more we know about you, the better your recommendation</span> <hr>
+
+
+                                   <form   method="POST",  action="/books" autocomplete="off">
+                                    <label for="fname" style="color: black;">Your Full Name:</label><br>
+                                    <input type="text" id="fname" style="padding: 2em; border-radius: 108px;" name="fname" placeholder="Enter your full name"><br> <br>
+
+                                    
+                                    <label for="fname" style="color: black;">Select Age Bracket:</label><br>
+                                    <select name="age" style="padding: 2em; border-radius: 108px;">
+                                        <option value=""></option>
+                                        <option value="10-20">10 - 20</option>
+                                        <option value="21-30">21 - 30</option>
+                                        <option value="31-50">31 -  50 </option>
+                                        <option value="51-above">51 and above </option>
+                                      </select>
+
+                                      <br> <br>
+
+                                    <label for="fname" style="color: black;">Select A Location:</label><br>
+                                    <select name="location" >
+                                        <option value=""></option>
+                                        <option value="USA">The United States</option>
+                                        <option value="UK">The UK</option>
+                                        <option value="Canada">Canada</option>
+                                 
+                                      </select>
+
+                                      <br> <br>
+
+                                   
+                                    <input type="submit" value="Get Started"  style="border-radius: 10px; padding: 1em;">
+                                  </form> 
+                                  
+                                </div>
+                             </div>
+                         
+                          </div>
+
+                       
+                       </div>
+                    </div>
+                 </div>
+                 
+                             
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 
+                 
+                 
+              </div>
+              <a class="carousel-control-prev" href="#we1" role="button" data-slide="prev">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#we1" role="button" data-slide="next">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+              </a>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+{% endblock %}

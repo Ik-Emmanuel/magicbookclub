@@ -1,0 +1,141 @@
+{%  extends "layout.html"  %}
+
+
+{% block content %}
+
+<div id="top_section" class=" banner_main">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12">
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                 <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                    <div class="container-fluid">
+                       <div class="carousel-caption relative">
+                          <div class="bluid" style="text-align: left;">
+                             <h1 style="color: white;  text-shadow: 1px 3px #000000; font-family:   'Poppins', sans-serif;" > <b>  <br>
+                                Welcome To <br>The Magic Book Club</b> </h1>
+                             <p  style="color: white;   text-shadow: 1px 2px #000000; font-family:   'Poppins', sans-serif;">Explore the magical world of literature to its fullest. <br> Get the very best books for your personality
+                             </p>
+                             <a class="read_more" href="#whatwedo" style="border-radius: 129px; "> <b> About </b></a>    <a class="read_more" href="{{ url_for ('user') }}" style="border-radius: 129px;"> <b> Get Started</b> </a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <!-- <div class="carousel-item">
+                    <div class="container-fluid">
+                       <div class="carousel-caption relative">
+                          <div class="bluid">
+                             <h1>Creative  <br>Work Idea </h1>
+                             <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
+                             </p>
+                             <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                          </div>
+                       </div>
+                    </div>
+                 </div> -->
+              
+              </div>
+              <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span> -->
+              </a>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- end slider section -->
+<!-- we_do -->
+<div class="we_do" id="whatwedo">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12">
+           <div class="titlepage text_align_center">
+              <h2>What The Magic Book Club Offers </h2>
+           </div>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-12">
+           <div id="we1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                 <li data-target="#we1" data-slide-to="0" class="active"></li>
+                 <li data-target="#we1" data-slide-to="1"></li>
+                 <li data-target="#we1" data-slide-to="2"></li>
+         
+              </ol>
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                    <div class="container-fluid">
+                       <div class="carousel-caption we1_do">
+                          <div class="row">
+                             <div class="col-md-4">
+                                <div id="bo_ho" class="we_box text_align_left">
+                                   <i><img src="/static/images/web1.jpg"  width="150", height="150" alt="#"/></i>
+                                   <h3>Book Recommendation  Based On<br>Your Personality & Preference</h3>
+                                   <p>Get the very best recommendation of great books based of similar users like you. 
+                                   </p>
+                                   
+                                </div>
+                             </div>
+                             <div class="col-md-4">
+                                <div id="bo_ho" class="we_box text_align_left">
+                                   <i><img src="/static/images/web2.png" width="150", height="150" alt="#"/></i>
+                                   <h3>Book Recommendation  Based On<br>Similar readers in your location </h3>
+                                   <p>Get book recommendations which are most enjoyed by users in your region.
+                                   </p>
+                            
+                                </div>
+                             </div>
+                             <div class="col-md-4">
+                                <div id="bo_ho" class="we_box text_align_left">
+                                   <i><img src="/static/images/web3.png" alt="#"  width="150", height="150"/></i>
+                                   <h3>Book Recommendation  Based On<br>Top Rated user votes</h3>
+                                   <p>Check out the most rated books by all our users and explore if you'd like them too.
+                                   </p>
+                               
+                                </div>
+                             </div>
+                          </div>
+
+                          <div style="justify-content: center; display: flex;">
+                             <a class="read_more" href="{{ url_for ('user') }}" style="border-radius: 129px; text-shadow: 2px 1px #000000;"> Get Started Now </a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 
+                             
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 
+                 
+                 
+              </div>
+              <a class="carousel-control-prev" href="#we1" role="button" data-slide="prev">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#we1" role="button" data-slide="next">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+              </a>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+{% endblock %}
